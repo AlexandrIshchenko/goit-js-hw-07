@@ -50,7 +50,7 @@ const instance = basicLightbox.create(
         const IsEscKeY = evt.code === ESC_KEY_CODE;
 
         if (IsEscKeY) {
-            instance.onClose();
+            instance.close();
         }
     };
 
